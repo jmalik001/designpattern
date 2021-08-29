@@ -1,10 +1,10 @@
 package com.sg.builder.model;
 
-public class SavingsAccount implements AccountType{
+public class SavingsAccount implements AccountType {
 
 	private String accountLabel;
-	private double dailyWithdwalLimit; 
-	
+	private double dailyWithdwalLimit;
+
 	public SavingsAccount(String accountLabel, double dailyWithdwalLimit) {
 		super();
 		this.accountLabel = accountLabel;
@@ -13,7 +13,7 @@ public class SavingsAccount implements AccountType{
 
 	@Override
 	public boolean validateMinimumAcBal(double amount) {
-		return amount>5000;
+		return amount > 5000;
 	}
 
 	@Override

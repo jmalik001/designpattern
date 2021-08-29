@@ -5,7 +5,7 @@ public class BankAccount {
 	private int bankAccountNumber;
 	private String branch;
 	private double balance;
-	
+
 	private AccountType accountType;
 
 	public BankAccount(int bankAccountNumber, String branch, double balance) {
@@ -29,7 +29,4 @@ public class BankAccount {
 				+ ", accountType=" + accountType + "]";
 	}
 
-	
-		
-	
 }

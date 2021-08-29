@@ -11,9 +11,9 @@ public class AccountBuilder {
 	private AccountType accountType;
 
 	public AccountBuilder() {
-		
+
 	}
-	
+
 	public AccountBuilder bankAccountNumber(int bankAccNumber) {
 		this.bankAccountNumber = bankAccNumber;
 		return this;
